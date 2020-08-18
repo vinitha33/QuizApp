@@ -70,9 +70,9 @@ def Login_id(request,pk):
     return JsonResponse(serial.data)
 
 
-data=[{"userId":1,
-     "Answers":[{"qno":"1","selected":"abcd"},
-                {"qno":"2","selected":"abcd"},
+'''data=[{"userId":1,
+     "Answers": {"qno":"1","selected":"abcd"},
+                {"qno":"2","selected":"abcd"}
                 {"qno":"3","selected":"abcd"},
                 {"qno":"4","selected":"abcd"},
                 {"qno":"5","selected":"abcd"},
@@ -80,4 +80,8 @@ data=[{"userId":1,
                 {"qno":"7","selected":"abcd"},
                 {"qno":"8","selected":"abcd"},
                 {"qno":"9","selected":"abcd"},
-                {"qno":"10","selected":"abcd"}]}]
+                {"qno":"10","selected":"abcd"}}]
+data=[{"userId":1,
+       "Answers":{1:"a",2:"b",3:"b",4:"b",5:"b",
+                  6:"b",7:"b",8:"b",9:"b",10:"c"}}]'''
+
